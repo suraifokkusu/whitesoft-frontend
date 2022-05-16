@@ -1,88 +1,88 @@
 .main-landing {
-    padding: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 74px;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 74px;
 }
 
 .main-landing__img {
-    width: 580px;
-    margin-left: 20px;
+  width: 580px;
+  margin-left: 20px;
 }
 
 .main-landing__wrapper {
-    max-width: 460px;
+  max-width: 460px;
 }
 
 .main-landing__title {
-    margin-bottom: 30px;
-    font-size: 80px;
-    line-height: 77px;
+  margin-bottom: 30px;
+  font-size: 80px;
+  line-height: 77px;
 }
 
 .main-landing__text {
-    font-size: 20px;
-    line-height: 30px;
-    color: #696871;
+  font-size: 20px;
+  line-height: 30px;
+  color: #696871;
 }
 
 .main-landing__button {
-    margin-top: 30px;
-    padding: 20px 50px;
-    font-size: 17px;
-    color: #fff;
-    background: #5454D4;
-    border-radius: 10px;
-    border: none;
-    cursor: pointer;
+  margin-top: 30px;
+  padding: 20px 50px;
+  font-size: 17px;
+  color: #fff;
+  background: #5454d4;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
 }
 
 .main-landing__button:hover {
-    background: #2d2d6c;
-    transition: all ease 0.5s;
+  background: #2d2d6c;
+  transition: all ease 0.5s;
 }
 
 @media screen and (max-width: 1400px) {
-    .main-landing {
-        gap: 30px;
-    }
+  .main-landing {
+    gap: 30px;
+  }
 
-    .main-landing__img {
-        width: 40%;
-    }
+  .main-landing__img {
+    width: 40%;
+  }
 
-    .main-landing__title {
-        margin-bottom: 30px;
-        font-size: 40px;
-        line-height: 47px;
-    }
-    
-    .main-landing__text {
-        font-size: 16px;
-        line-height: 20px;
-        color: #696871;
-    }
+  .main-landing__title {
+    margin-bottom: 30px;
+    font-size: 40px;
+    line-height: 47px;
+  }
+
+  .main-landing__text {
+    font-size: 16px;
+    line-height: 20px;
+    color: #696871;
+  }
 }
 
 @media screen and (max-width: 800px) {
-    .main-landing {
-        flex-direction: column;
-    }
+  .main-landing {
+    flex-direction: column;
+  }
 
-    .main-landing__img {
-        width: 60%;
-        order: 1;
-    }
+  .main-landing__img {
+    width: 60%;
+    order: 1;
+  }
 
-    .main-landing__wrapper {
-        order: 2;
-    }
+  .main-landing__wrapper {
+    order: 2;
+  }
 }
 
 @media screen and (max-width: 400px) {
-    .main-landing__img {
-        min-width: 200px;
-        width: 100%;
-    }
+  .main-landing__img {
+    min-width: 200px;
+    width: 100%;
+  }
 }
