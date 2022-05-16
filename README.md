@@ -2,7 +2,7 @@
 
 # <p align="center"> :japanese_goblin: Репозиторий для домашних заданий :japanese_goblin: </p>
 
-В будущем этот репозиторий будет частью репозитория WHITESOFT-HOMEWORK
+<p align="center"> В будущем этот репозиторий будет частью репозитория WHITESOFT-HOMEWORK </p>
 
 ## <p align="center"> Список заданий </p>
 
