@@ -1,10 +1,10 @@
-<center> # whitesoft-frontend </center>
+<p align="center"> # whitesoft-frontend </p>
 
-<center> # :japanese_goblin: Репозиторий для домашних заданий :japanese_goblin: </center>
+<p align="center"> # :japanese_goblin: Репозиторий для домашних заданий :japanese_goblin: </p>
 
 В будущем этот репозиторий будет частью репозитория WHITESOFT-HOMEWORK
 
-## <center> Список заданий </center>
+## <p align="center"> Список заданий </p>
 
 1.  layout-basics
 
