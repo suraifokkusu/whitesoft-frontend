@@ -1,8 +1,6 @@
 # whitesoft-frontend
 
-# :japanese_goblin: Тестовое задание компании WhiteSoft :japanese_goblin:
-
-## Репозиторий для домашних заданий
+# :japanese_goblin: Репозиторий для домашних заданий :japanese_goblin:
 
 В будущем этот репозиторий будет частью репозитория WHITESOFT-HOMEWORK
 
