@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic app</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/landing.css">
+</head>
+<body>
+    <header
+        class="header"
+    >
+        Шапка
+        <img
+            src="images/white.png"
+            class="header__img"
+            alt="logo"
+        />
+        <div
+            class="header__menu menu"
+        >
+            <a href="#" class="menu__a">ссылка</a>
+            <a href="#" class="menu__a">ссылка</a>
+            <a
+                href="https://docs.google.com/spreadsheets/d/1yoiIHdjMkQhCauyBvJYMKxDSxK6XfGDSQfBgPbk7iOQ/edit#gid=0"
+                class="menu__a"
+                id="unique-a"
+                target="_blank"
+            >
+                ссылка
+            </a>
+        </div>
+    </header>
+    <main
+        class="main"
+    >
+        Контент!
+        <div>
+            <input
+                placeholder="name"
+                class="main__input"
+            />
+        </div>
+        <section
+            class="main__landing main-landing"
+        >
+            <div class="main-landing__wrapper">
+                <h1 class="main-landing__title">
+                    Grow your subscription business
+                </h1>
+                <p class="main-landing__text">
+                    Outcome-centered products that reduce churn, optimize pricing, and grow your subscription business end-to-end.
+                </p>
+                <button
+                    class="main-landing__button"
+                >
+                    Get Started
+                </button>
+            </div>
+            <img
+                src="images/hero.png"
+                class="main-landing__img"
+                alt="hero"
+            />
+        </section>
+    </main>
+</body>
+</html>
