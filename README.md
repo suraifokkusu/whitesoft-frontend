@@ -2,7 +2,7 @@
 
 # <p align="center"> :japanese_goblin: Репозиторий для домашних заданий :japanese_goblin: </p>
 
-<p align="center"> В будущем этот репозиторий будет частью репозитория [WS-HOMEWORK](https://github.com/suraifokkusu/WS_HOMEWORK) </p>
+> В будущем этот репозиторий будет частью репозитория [WS-HOMEWORK](https://github.com/suraifokkusu/WS_HOMEWORK) 
 
 ## <p align="center"> Список заданий </p>
 
