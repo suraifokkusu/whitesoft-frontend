@@ -1,98 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
 header {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  height: 120px;
-  padding: 20px;
-  background-color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 120px;
+    padding: 20px;
+    background-color: #ffffff;
 }
 
-.logo-blue {
-  height: 23.590410232543945px;
-  width: 23.57550811767578px;
-  border-radius: 0px;
+.logo {
+    margin: none;
 }
 
 .logo-blue__up {
-  position: absolute;
-  left: 184.1025390625px;
-  top: 40.98224639892578px;
-  border-radius: 0px;
+    position: absolute;
+    left: 184.1025390625px;
+    top: 40.98224639892578px;
+    border-radius: 0px;
 }
 
 .logo-blue__down {
-  position: absolute;
-  left: 199.676513671875px;
-  top: 56.60394287109375px;
-  border-radius: 0px;
+    position: absolute;
+    left: 199.676513671875px;
+    top: 56.60394287109375px;
+    border-radius: 0px;
 }
 
 .logo-orange {
-  position: absolute;
-  height: 36.358802795410156px;
-  width: 36.363216400146484px;
-  left: 185.45440673828125px;
-  top: 42.36766052246094px;
-  border-radius: 0px;
+    position: absolute;
+    height: 36.358802795410156px;
+    width: 36.363216400146484px;
+    left: 185.45440673828125px;
+    top: 42.36766052246094px;
+    border-radius: 0px;
 }
 
 .logo-text {
-  position: absolute;
-  height: 21.254411697387695px;
-  width: 4.367647171020508px;
-  left: 238.8779296875px;
-  top: 48.31617736816406px;
-  border-radius: 0px;
-  font-size: 27px;
-  line-height: 20px;
-  color: #19191b;
+    position: absolute;
+    height: 21.254411697387695px;
+    width: 4.367647171020508px;
+    left: 238.8779296875px;
+    top: 48.31617736816406px;
+    border-radius: 0px;
+    font-size: 27px;
+    line-height: 20px;
+    color: #19191b;
 }
 
 .logo-text__dot {
-  position: absolute;
-  height: 6.4823527336120605px;
-  width: 6.4823527336120605px;
-  left: 377.1000061035156px;
-  top: 48.44117736816406px;
-  border-radius: 0px;
-  padding: 0%;
-  margin: auto;
+    position: absolute;
+    height: 6.4823527336120605px;
+    width: 6.4823527336120605px;
+    left: 377.1000061035156px;
+    top: 48.44117736816406px;
+    border-radius: 0px;
+    padding: 0%;
+    margin: auto;
 }
 
 .header__buttons {
-  position: relative;
-  font-family: "DMSans";
-  font-size: 15px;
-  line-height: 18px;
-  letter-spacing: -0.468947px;
-  width: 41px;
-
-  background: #ffffff;
-  margin: 24.5px 24.5px;
-  padding-bottom: 10px;
-  border: none;
-  border-bottom: 2px solid #5454d4;
-  cursor: pointer;
+    position: relative;
+    font-family: "DMSans";
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: -0.468947px;
+    width: 41px;
+    background: #ffffff;
+    margin: 24.5px 24.5px;
+    padding-bottom: 10px;
+    border: none;
+    border-bottom: 2px solid #5454d4;
+    cursor: pointer;
 }
+
 .header__buttons:hover {
-  border-bottom: 2px solid #292969;
-  transition: all ease 0.5s;
+    border-bottom: 2px solid #292969;
+    transition: all ease 0.5s;
 }
 
 .header__right-button {
-  position: relative;
-  bottom: 10px;
-  margin-top: 30px;
-  padding: 20px 50px;
-  font-size: 17px;
-  color: #fff;
-  background: #ff7143;
-  border-radius: 10px;
-  border: none;
-  cursor: pointer;
+    position: relative;
+    bottom: 33px;
+    margin-top: 30px;
+    padding: 20px 50px;
+    font-size: 17px;
+    font-family: "DMSans";
+    color: #fff;
+    background: #ff7143;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
 }
 
 .header__right-button:hover {
-  background: #e66337;
-  transition: all ease 0.5s;
+    background: #e66337;
+    transition: all ease 0.5s;
+}
+
+.header__wrapper {
+    margin: 0%;
+}
+
+@media screen and (max-width: 1100px) {
+    .header {
+        height: 300px;
+        flex-direction: column;
+    }
+    .header__wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 100px;
+    }
+    .header__right-button {
+        width: auto;
+        margin-left: 160px;
+        margin-top: 30px;
+        order: 2;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .header__wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 100px;
+        margin-right: 150px;
+    }
+    .header__right-button {
+        width: auto;
+        margin-left: 10px;
+        margin-top: 30px;
+        order: 2;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .logo {
+        position: relative;
+        margin-right: 700px;
+    }
 }
