@@ -9,231 +9,215 @@
     <link rel="stylesheet" href="styles/styles.css" />
     <link rel="stylesheet" href="styles/header.css" />
     <link rel="stylesheet" href="styles/landing.css" />
+    <link rel="stylesheet" href="styles/product_plan.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
+    <script defer src="js/onClick.js"></script>
 </head>
 
 <body>
     <header class="header">
-        <!------------------------------------Шапка ------------------------------------>
-        <section class="logo">
-            <img src="images/logo1.svg" class="logo-blue__up" alt="logo_blue" />
-            <img src="images/logo2.svg" class="logo-orange" alt="logo_orange" />
-            <img src="images/logo1.svg" class="logo-blue__down" alt="logo_blue" />
-            <h1 class="logo-text">logoipsum</h1>
-            <img src="images/logo-dot.svg" class="logo-text__dot" />
-        </section>
-
-        <div style="position: relative; left: 100px; bottom: 16px" class="header__wrapper">
-
-            <button class="header__buttons">Home</button>
-            <button class="header__buttons">Features</button>
-            <button class="header__buttons">Pricing</button>
-            <button class="header__buttons">Blog</button>
-
-        </div>
-        <button class="header__right-button">Get Started</button>
+        <img class="logo" src="images/logo.svg" />
+        <nav class="header__menu menu">
+            <div>
+                <a class="menu__wrapper-button button" href="#">Home</a>
+            </div>
+            <div>
+                <a class="menu__wrapper-button button" href="#">Features</a>
+            </div>
+            <div>
+                <a class="menu__wrapper-button button" href="#">Pricing</a>
+            </div>
+            <div>
+                <a class="menu__wrapper-button button" href="#">Blog</a>
+            </div>
+        </nav>
+        <button class="header__get-start-button get-start-button">Get Start</button>
     </header>
-    <!--------------------------------------------------------------------------------->
     <main class="main">
-        <section class="main__landing main-landing">
-            <div class="main-landing__wrapper">
-                <h1 style="font-family: DMSans;" class="main-landing__title">Grow your subscription business</h1>
-                <p class="main-landing__text">
-                    Outcome-centered products that reduce churn, optimize pricing, and grow your subscription business end-to-end.
-                </p>
-                <div>
-                    <button class="main-landing__button">Get Started</button>
-                    <button class="main-landing__button-download">
-            <div style="display: flex; flex-direction: column;">
-              <img class="main-landing__button-download-vertical" src="images/download-button-vertical.svg" alt="">
-              <img class="main-landing__button-download-arrow" src=" images/download-button-arrow.svg" alt="">
-            </div>
-          </button>
+        <section>
+            <div class="main-landing">
+                <div class="main-landing__wrapper wrapper">
+                    <h1 class="main-landing__title1 title">
+                        Grow your subscription business
+                    </h1>
+                    <p class="main-landing__text text">
+                        Outcome-centered products that reduce churn, optimize pricing, and grow your subscription business end-to-end.
+                    </p>
+                    <div class="main-landing__button-wrapper">
+                        <button class="main-landing__button button-get-start">Get Started</button>
+                        <button class="main-landing__button-download button-download">
+                            <img class="arrow" , src="images/arrow-down.svg" alt="download_button">
+                        </button>
+                    </div>
                 </div>
+                <img src="images/hero.png" class="main-landing__img" alt="hero" />
             </div>
-            <img src="images/hero.png" class="main-landing__img" alt="hero" />
-        </section>
-        <!--------------------------------------------------------------------------------->
-        <section class="main-landing-block-footer">
-            <img src="images/first-block-logo-1.svg" alt="">
-            <img src="images/first-block-logo-2.svg" alt="">
-            <img src="images/first-block-logo-3.svg" alt="">
-            <img src="images/first-block-logo-4.svg" alt="">
-            <img src="images/first-block-logo-5.svg" alt="">
-        </section>
-        <!--------------------------------------------------------------------------------->
-        <section style="margin-top: 150px;" class="main__landing main-landing">
-            <img style="height: 473px; width: 348.5px;" src="images/hero2.png" class="main-landing__img" alt="hero" />
-            <div class="main-landing__wrapper">
-                <h1 style="font-size: 50px;" class="main-landing__title">Subscription index</h1>
-                <p class="main-landing__text">
-                    A daily dataset to keep you up to date on subscription market trends and what's happening in your vertical.
-                </p>
-                <div>
-                    <button class="main-landing__button-learn">Learn more</button>
-                </div>
+            <div class="main-landing__post-landing-block logo-block">
+                <img src="images/first-block-logo-1.svg" alt="first_logo">
+                <img src="images/first-block-logo-2.svg" alt="second_logo">
+                <img src="images/first-block-logo-3.svg" alt="third_logo">
+                <img src="images/first-block-logo-4.svg" alt="fourth_logo">
+                <img src="images/first-block-logo-5.svg" alt="fifth_logo">
             </div>
-        </section>
-        <!--------------------------------------------------------------------------------->
-        <section style="margin-top: 150px;" class="main__landing main-landing">
-            <div class="main-landing__wrapper">
-                <h1 style="font-size: 50px;" class=" main-landing__title">In-depth metrics</h1>
-                <p class="main-landing__text">
-                    Accurate, real-time reporting at your fingertips. Getting data has never been easier.
-                </p>
-                <div>
-                    <button class="main-landing__button-learn">Learn more</button>
-                </div>
-            </div>
-            </div>
-            <img style="height:474px; width: 346.37px;" src="images/hero3.png" class="main-landing__img" alt="hero" />
-        </section>
-        <!--------------------------------------------------------------------------------->
-        <section class="main-landing-block-footer">
-            <div style="display: flex; flex-direction: column;">
-                <div style="margin: auto;">
-                    <img style="height: 64px; width: 114px;" src="images/card.png" alt="">
-                </div>
-                <h1 class="main-landing__card-title">Benchmarks</h1>
-                <div style="width: 307px;">
 
+
+            <div class="main-landing">
+                <img src="images/hero2.png" class="main-landing__img-alt" alt="hero" />
+                <div class="main-landing__wrapper wrapper">
+                    <h2 class="main-landing__title2 title">Subscription index</h2>
+                    <p class="main-landing__text text">
+                        A daily dataset to keep you up to date on subscription market trends and what's happening in your vertical.
+                    </p>
+                    <button class="main-landing__button-learn">Learn more</button>
+                </div>
+            </div>
+            <div class="main__landing main-landing">
+                <div class="main-landing__wrapper wrapper">
+                    <h2 class="main-landing__title2 title">In-depth metrics</h2>
+                    <p class="main-landing__text text">
+                        Accurate, real-time reporting at your fingertips. Getting data has never been easier.
+                    </p>
+                    <div>
+                        <button class="main-landing__button-learn button-learn">Learn more</button>
+                    </div>
+                </div>
+                <img src="images/hero3.png" class="main-landing__img-alt" alt="hero" />
+            </div>
+            <div class="main-landing__post-landing-block offers-block">
+                <div class="main-landing__card">
+                    <img class="main-landing__card-img" src="images/card.png" alt="card">
+                    <p class="main-landing__card-title">Benchmarks</p>
                     <p class="main-landing__card-text">See how you stack up against comparable companies in similar stages. </p>
                 </div>
-            </div>
-            <div style="display: flex; flex-direction: column;">
-                <div style="margin:auto;">
-                    <img style="height: 72px; width: 91px;" src="images/calculator.png" alt="">
+                <div class="main-landing__card">
+                    <img class="main-landing__card-img" src="images/calculator.png" alt="">
+                    <p class="main-landing__card-title">Pricing Audit</p>
+                    <p class="main-landing__card-text"> Benchmark the health of your monetization and pricing strategy.
+                    </p>
                 </div>
-                <h1 class="main-landing__card-title">Pricing Audit</h1>
-                <div style="width: 307px;">
-                    <p class="main-landing__card-text"> Benchmark the health of your monetization and pricing strategy. </p>
-                </div>
-            </div>
-            <div style="display: flex; flex-direction: column;">
-                <div style="margin:auto;">
-                    <img style="height: 63px; width: 118px;" src="images/camera.png" alt="">
-                </div>
-                <h1 class="main-landing__card-title">Retention Audit</h1>
-                <div style="width: 307px;">
+                <div class="main-landing__card">
+                    <img class="main-landing__card-img" src="images/camera.png" alt="">
+                    <p class="main-landing__card-title">Retention Audit</p>
                     <p class="main-landing__card-text"> Audit where revenue leakage exists and where you can increase retention.
+                    </p>
                 </div>
-                </p>
             </div>
         </section>
-        <!--------------------------------------------------------------------------------->
-        <section style="display: flex; justify-content: space-around; margin-top: 150px;" class=" main-landing__footer-wrapper">
-            <script src="js/onClick.js"></script>
-            <div style="position:relative; right: 80px; width: 450px;">
-                <h1 style="font-size: 50px; font-family: DMSans;" class="main-landing__title">Get the right plan for future product.
-                </h1>
-            </div>
-            <div style="border-radius:10px; background-color: #F7F7FB;  width: 344px; height: 65px; position:relative; left: 60px; display: flex; justify-content: center;">
-                <button id="button_left" style="margin-left: 5px; padding-right: 70.5px; border-top-right-radius: 0px; border-bottom-right-radius: 0px;" class="main-landing__button-active" onclick="onClick(this)">Yearly</button>
-                <button id="button_right" style="margin-right: 5px; padding-left: 57.5px;border-top-left-radius: 0px; border-bottom-left-radius: 0px;" class="main-landing__button-choose" onclick="onClick(this)">Monthly</button>
-            </div>
-        </section>
-
-        <!--------------------------------------------------------------------------------->
         <section>
-            <div style="display: flex; flex-direction: row; margin-top: 98px; margin-left: 170px;" class="main-landing__card-footer-wrapper">
-                <div style="height: 441px; width: 330px; margin-left: 50px;" class="main-landing__card-footer">
-                    <div style="color:#1D293F; margin-top: 34px;" class="main-landing__card-text">
-                        <p>
+            <div class="product-plan__wrapper-title">
+                <h1 class="product-plan__title">Get the right plan for future product.</h1>
+                <div class="product-plan__wrapper-choose-button">
+                    <button id="button_left" class="product-plan__button-yearly" onclick="onClick(this)">Yearly</button>
+                    <button id="button_right" class="product-plan__button-monthly" onclick="onClick(this)">Monthly</button>
+                </div>
+            </div>
+
+            <div class="product-plan__card__wrapper">
+                <div class="product-plan__card">
+                    <div class="product-plan__card__text">
+                        <p class="product-plan__card__pretitle">
                             Starter
                         </p>
-                        <div style="font-size: 60px; margin-top: 22px;" class="main-landing__card-title">
-                            Free
-                        </div>
-                        <div style="margin-top: 28px;">
-                            <p>
-                                1 Website
+                        <div class="product-plan__card__wrapper-title">
+                            <p class="product-plan__card__title1">
+                                Free
                             </p>
                         </div>
-                        <div style="margin-top: 28px;">
-                            <p>
-                                5 GB Hosting
-                            </p>
-                        </div>
-                        <div style="margin-top: 28px;">
-                            <p>
-                                Limited Support
-                            </p>
+                        <div class="product-plan__card__wrapper-text">
+                            <div>
+                                <p>
+                                    1 Website
+                                </p>
+                            </div>
+                            <div>
+                                <p>
+                                    5 GB Hosting
+                                </p>
+                            </div>
+                            <div>
+                                <p>
+                                    Limited Support
+                                </p>
 
+                            </div>
                         </div>
-                        <button class="main-landing__button-footer">Get Started</button>
                     </div>
+                    <button class="product-plan__card__button button">Get Started</button>
                 </div>
-                <div style="height:calc(441* 1.14px); width: calc(330*1.14px); margin-left: 18px; position: relative; bottom: 26px; background: #FF7143;" class="main-landing__card-footer">
-                    <div style="color: #fff; margin-top: 34px;" class="main-landing__card-text">
-                        <p>
+                <div class="product-plan__card">
+                    <div class="product-plan__card__text">
+                        <p class="product-plan__card__pretitle">
                             Premium
                         </p>
-                        <div style="font-size: 60px; margin-top: 22px; display: flex; flex-direction: row; justify-content: center;" class="main-landing__card-title">
-                            $29
-                            <p style="font-family: DMSans;font-size: 28px;line-height: 56px;letter-spacing: -1.034482717514038px;text-align: center;;">
+                        <div class="product-plan__card__wrapper-title">
+                            <p class="product-plan__card__title1">
+                                $29
+                            </p>
+                            <p class="product-plan__card__title2">
                                 /month
                             </p>
                         </div>
-                        <div style="margin-top: 28px;">
-                            <p>
-                                10 Website
-                            </p>
-                        </div>
-                        <div style="margin-top: 28px;">
-                            <p>
-                                15 GB Hosting
-                            </p>
+                        <div class="product-plan__card__wrapper-text">
+                            <div>
+                                <p>
+                                    10 Website
+                                </p>
+                            </div>
+                            <div>
+                                <p>
+                                    15 GB Hosting
+                                </p>
 
+                            </div>
+                            <div>
+                                <p>
+                                    Premium Support
+                                </p>
+                            </div>
                         </div>
-                        <div style="margin-top: 28px;">
-                            <p>
-                                Premium Support
-                            </p>
-
-                        </div>
-                        <button class="main-landing__button-orange-footer">Get Started</button>
                     </div>
+                    <button class="product-plan__card__button button">Get Started</button>
                 </div>
-                <div style="height: 441px; width: 330px; margin-left: 18px;" class="main-landing__card-footer">
-                    <div style="color:#1D293F; margin-top: 34px;" class="main-landing__card-text">
-                        <p>
+                <div class="product-plan__card">
+                    <div class="product-plan__card__text">
+                        <p class="product-plan__card__pretitle">
                             Enterprise
                         </p>
-                        <div style="font-size: 60px; margin-top: 22px; display: flex; flex-direction: row; justify-content: center;" class="main-landing__card-title">
-                            $49
-                            <p style="font-family: DMSans;
-                        font-size: 28px;
-                        line-height: 56px;
-                        letter-spacing: -1.034482717514038px;
-                        text-align: center;">
+                        <div class="product-plan__card__wrapper-title">
+                            <p class="product-plan__card__title1">
+                                $49
+                            </p>
+                            <p class="product-plan__card__title2">
                                 /month
                             </p>
                         </div>
-                        <div style="margin-top: 28px;">
+                        <div class="product-plan__card__wrapper-text">
+                            <div>
+                                <p>
+                                    Unlimited Website
 
-                            <p>
-                                Unlimited Website
-                            </p>
-                        </div>
-                        <div style="margin-top: 28px;">
-                            <p>
-                                50 GB Hosting
-                            </p>
+                                </p>
+                            </div>
+                            <div>
+                                <p>
+                                    50 GB Hosting
+                                </p>
 
+                            </div>
+                            <div>
+                                <p>
+                                    Premium Support
+                                </p>
+                            </div>
                         </div>
-                        <div style="margin-top: 28px;">
-                            <p>
-                                Premium Support
-                            </p>
-
-                        </div>
-                        <button class="main-landing__button-footer">Get Started</button>
                     </div>
+                    <button class="product-plan__card__button button">Get Started</button>
                 </div>
             </div>
         </section>
+
     </main>
 </body>
 

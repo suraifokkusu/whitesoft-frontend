@@ -1,11 +1,11 @@
 function onClick(event) {
     if (event.id == "button_right") {
-        event.className = "main-landing__button-active";
-        button_left.className = "main-landing__button-choose";
+        event.className = "product-plan__button-monthly-active";
+        button_left.className = "product-plan__button-yearly";
     }
     if (event.id == "button_left") {
-        event.className = "main-landing__button-active";
-        button_right.className = "main-landing__button-choose";
+        event.className = "product-plan__button-yearly-active";
+        button_right.className = "product-plan__button-monthly";
     }
 
 };
