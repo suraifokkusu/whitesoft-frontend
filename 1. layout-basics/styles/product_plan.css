@@ -20,7 +20,7 @@
     padding-top: 5px;
     padding-bottom: 5px;
     width: 344px;
-    height: 65px;
+    min-height: 65px;
     display: flex;
     justify-content: center;
 }
@@ -84,7 +84,7 @@
     cursor: pointer;
 }
 
-.product-plan__card__wrapper {
+.product-plan__card-wrapper {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -100,10 +100,11 @@
     align-items: center;
     background: #f8f8f8;
     border-radius: 10px;
-    height: 441px;
+    min-height: 441px;
     row-gap: 50px;
     max-height: 441px;
     min-width: 330px;
+    cursor: pointer;
 }
 
 .product-plan__card:hover {
@@ -113,26 +114,26 @@
     background-color: #FF7143;
 }
 
-.product-plan__card:hover>.product-plan__card__button {
+.product-plan__card:hover>.product-card__button {
     background: #893319;
     color: #FFFFFF;
     border: none;
 }
 
-.product-plan__card__pretitle {
+.product-card__pretitle {
     font-family: "DMSans";
     margin-bottom: 22px;
     color: inherit;
 }
 
-.product-plan__card__wrapper-title {
+.product-card-wrapper-title {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-bottom: 28px;
 }
 
-.product-plan__card__title1 {
+.product-card__title1 {
     color: inherit;
     max-width: 307px;
     text-align: center;
@@ -140,7 +141,7 @@
     font-size: 60px;
 }
 
-.product-plan__card__title2 {
+.product-card__title2 {
     color: inherit;
     max-width: 307px;
     text-align: center;
@@ -148,13 +149,13 @@
     font-size: 28px;
 }
 
-.product-plan__card__wrapper-text {
+.product-card__wrapper-text {
     display: flex;
     flex-direction: column;
     row-gap: 20px;
 }
 
-.product-plan__card__text {
+.product-card__text {
     color: inherit;
     margin-top: 34px;
     max-width: 307px;
@@ -163,7 +164,7 @@
     font-size: 16px;
 }
 
-.product-plan__card__button {
+.product-card__button {
     min-width: 285px;
     min-height: 60px;
     color: #5454d4;
@@ -176,7 +177,6 @@
     line-height: 20px;
     text-align: center;
     margin-bottom: 27px;
-    cursor: pointer;
 }
 
 @media screen and (max-width: 1100px) {
@@ -184,7 +184,7 @@
         flex-wrap: wrap;
         gap: 40px;
     }
-    .product-plan__card__wrapper {
+    .product-card-wrapper {
         flex-wrap: wrap;
         row-gap: 40px;
     }

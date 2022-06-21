@@ -11,7 +11,6 @@ body {
 main {
     height: 100%;
     padding: 20px;
-    font-family: "DMSans";
 }
 
 .main__input {
@@ -19,7 +18,22 @@ main {
     padding: 10px 8px;
 }
 
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15 px;
+}
+
 p {
     font-size: 20px;
     font-family: "Mulish";
+}
+
+li {
+    list-style-type: none;
+}
+
+ul {
+    margin-left: 0;
+    padding-left: 0;
 }

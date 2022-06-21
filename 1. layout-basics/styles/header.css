@@ -3,7 +3,6 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 120px;
     padding: 20px;
     background-color: #ffffff;
 }
@@ -21,21 +20,25 @@ header {
     gap: 50px;
 }
 
-.menu__wrapper-button {
+.menu__button {
     font-family: DMSans;
     font-size: 15px;
-    color: #696871;
     text-decoration: none;
+    color: #696871;
+    margin-bottom: 10px;
+}
+
+.menu__wrapper-button {
     position: relative;
     transition: top 0.5s;
     top: 0px;
     padding-bottom: 10px;
-    margin-bottom: 10px;
 }
 
 .menu__wrapper-button:hover {
     color: #19191B;
     border-bottom: 2px solid #5454d4;
+    margin-bottom: -2px;
 }
 
 .header__get-start-button {
