@@ -18,32 +18,34 @@
 </head>
 
 <body>
-    <header class="container header">
-        <img class="logo" src="images/logo.svg" />
-        <nav class="header__menu menu">
-            <ul class="menu__wrapper-button button">
-                <li>
-                    <a class="menu__button" href="#">Home</a>
-                </li>
-            </ul>
-            <ul class="menu__wrapper-button button">
-                <li>
-                    <a class="menu__button" href="#">Features</a>
-                </li>
-            </ul>
-            <ul class="menu__wrapper-button button">
-                <li>
-                    <a class="menu__button" href="#">Pricing</a>
-                </li>
-            </ul>
-            <ul class="menu__wrapper-button button">
-                <li>
-                    <a class="menu__button" href="#">Blog</a>
-                </li>
-            </ul>
-        </nav>
-        <button class="header__get-start-button get-start-button">Get Start</button>
-    </header>
+    <section class="container">
+        <header class="header">
+            <img class="logo" src="images/logo.svg" />
+            <nav class="header__menu menu">
+                <ul class="menu__wrapper-link link">
+                    <li>
+                        <a class="menu__link" href="#">Home</a>
+                    </li>
+                </ul>
+                <ul class="menu__wrapper-link link">
+                    <li>
+                        <a class="menu__link" href="#">Features</a>
+                    </li>
+                </ul>
+                <ul class="menu__wrapper-link link">
+                    <li>
+                        <a class="menu__link" href="#">Pricing</a>
+                    </li>
+                </ul>
+                <ul class="menu__wrapper-link link">
+                    <li>
+                        <a class="menu__link" href="#">Blog</a>
+                    </li>
+                </ul>
+            </nav>
+            <button class="header__get-start-button get-start-button">Get Start</button>
+        </header>
+    </section>
     <main class="main">
         <section class="container">
             <div class="main__home home">
@@ -72,48 +74,53 @@
             </div>
         </section>
 
-        <section class="container main__home">
-            <img src="images/hero2.png" class="home__img-alt" alt="hero" />
-            <div class="home__wrapper wrapper">
-                <h2 class="home__title2 title">Subscription index</h2>
-                <p class="home__text text">
-                    A daily dataset to keep you up to date on subscription market trends and what's happening in your vertical.
-                </p>
-                <button class="home__button-learn">Learn more</button>
-            </div>
-        </section>
-        <section class="container main__home">
-            <div class="home__wrapper wrapper">
-                <h2 class="home__title2 title">In-depth metrics</h2>
-                <p class="home__text text">
-                    Accurate, real-time reporting at your fingertips. Getting data has never been easier.
-                </p>
-                <div>
-                    <button class="home__button-learn button-learn">Learn more</button>
+        <section class="container">
+            <div class="main__home">
+                <img src="images/hero2.png" class="home__img-alt" alt="hero" />
+                <div class="home__wrapper wrapper">
+                    <h2 class="home__title2 title">Subscription index</h2>
+                    <p class="home__text text">
+                        A daily dataset to keep you up to date on subscription market trends and what's happening in your vertical.
+                    </p>
+                    <button class="home__button-learn">Learn more</button>
                 </div>
             </div>
-            <img src="images/hero3.png" class="main__home__img-alt" alt="hero" />
         </section>
-        <section class="main__post-home-block offers-block">
-            <div class="offers-block__card">
-                <img class="offers-block__card-img" src="images/card.png" alt="card">
-                <p class="offers-block__card-title">Benchmarks</p>
-                <p class="offers-block__card-text">See how you stack up against comparable companies in similar stages.
-                </p>
-            </div>
-            <div class="offers-block__card">
-                <img class="offers-block__card-img" src="images/calculator.png" alt="">
-                <p class="offers-block__card-title">Pricing Audit</p>
-                <p class="offers-block__card-text"> Benchmark the health of your monetization and pricing strategy.
-                </p>
-            </div>
-            <div class="offers-block__card">
-                <img class="offers-block__card-img" src="images/camera.png" alt="">
-                <p class="offers-block__card-title">Retention Audit</p>
-                <p class="offers-block__card-text"> Audit where revenue leakage exists and where you can increase retention.
-                </p>
+        <section class="container">
+            <div class="main__home">
+                <div class="home__wrapper wrapper">
+                    <h2 class="home__title2 title">In-depth metrics</h2>
+                    <p class="home__text text">
+                        Accurate, real-time reporting at your fingertips. Getting data has never been easier.
+                    </p>
+                    <div>
+                        <button class="home__button-learn button-learn">Learn more</button>
+                    </div>
+                </div>
+                <img src="images/hero3.png" class="home__img-alt" alt="hero" />
             </div>
         </section>
+        <section class="container">
+            <div class="main__post-home-block offers-block">
+                <div class="offers-block__card">
+                    <img class="offers-block__card-img" src="images/card.png" alt="card">
+                    <p class="offers-block__card-title">Benchmarks</p>
+                    <p class="offers-block__card-text">See how you stack up against comparable companies in similar stages.
+                    </p>
+                </div>
+                <div class="offers-block__card">
+                    <img class="offers-block__card-img" src="images/calculator.png" alt="">
+                    <p class="offers-block__card-title">Pricing Audit</p>
+                    <p class="offers-block__card-text"> Benchmark the health of your monetization and pricing strategy.
+                    </p>
+                </div>
+                <div class="offers-block__card">
+                    <img class="offers-block__card-img" src="images/camera.png" alt="">
+                    <p class="offers-block__card-title">Retention Audit</p>
+                    <p class="offers-block__card-text"> Audit where revenue leakage exists and where you can increase retention.
+                    </p>
+                </div>
+            </div>
         </section>
         <section class="container">
             <div class="product-plan__wrapper-title">
@@ -131,7 +138,7 @@
                             Starter
                         </p>
                         <div class="product-card__wrapper-title">
-                            <p class="product-card__title1">
+                            <p class="product-card__price">
                                 Free
                             </p>
                         </div>
@@ -162,11 +169,8 @@
                             Premium
                         </p>
                         <div class="product-card__wrapper-title">
-                            <p class="product-card__title1">
-                                $29
-                            </p>
-                            <p class="product-card__title2">
-                                /month
+                            <p class="product-card__price">
+                                $29<span class="product-card__period"> /month</span>
                             </p>
                         </div>
                         <div class="product-card__wrapper-text">
@@ -196,11 +200,8 @@
                             Enterprise
                         </p>
                         <div class="product-card__wrapper-title">
-                            <p class="product-card__title1">
-                                $49
-                            </p>
-                            <p class="product-card__title2">
-                                /month
+                            <p class="product-card__price">
+                                $49<span class="product-card__period"> /month</span>
                             </p>
                         </div>
                         <div class="product-card__wrapper-text">

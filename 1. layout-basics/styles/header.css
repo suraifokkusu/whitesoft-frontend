@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
 header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding-top: 40px;
+    margin-bottom: 100px;
     background-color: #ffffff;
 }
 
@@ -13,14 +14,14 @@ header {
 
 .header__menu {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     position: relative;
     transition: top 1s;
     top: 0px;
     gap: 50px;
 }
 
-.menu__button {
+.menu__link {
     font-family: DMSans;
     font-size: 15px;
     text-decoration: none;
@@ -28,14 +29,14 @@ header {
     margin-bottom: 10px;
 }
 
-.menu__wrapper-button {
+.menu__wrapper-link {
     position: relative;
     transition: top 0.5s;
     top: 0px;
     padding-bottom: 10px;
 }
 
-.menu__wrapper-button:hover {
+.menu__wrapper-link:hover {
     color: #19191B;
     border-bottom: 2px solid #5454d4;
     margin-bottom: -2px;
@@ -58,7 +59,7 @@ header {
     transition: all ease 0.5s;
 }
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 800px) {
     .header {
         height: 300px;
         flex-direction: column;
