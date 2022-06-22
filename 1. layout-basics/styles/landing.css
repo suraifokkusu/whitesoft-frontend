@@ -43,7 +43,7 @@
 
 .home__button-wrapper {
     display: flex;
-    justify-content: start;
+    justify-content: space-between;
 }
 
 .home__button {
@@ -81,7 +81,8 @@
 .main__post-home-block {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    align-items: center;
     margin-bottom: 150px;
     font-family: inherit;
 }
