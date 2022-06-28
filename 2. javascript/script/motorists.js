@@ -8,16 +8,16 @@ json.forEach((elem) => {
      <td> ${elem.car.manufacturer} </td> 
      <td> ${elem.car.model}</td>
      <td> ${elem.car.year} </td>`;
-  document.getElementById("tableBody").append(newRow);
+  $('#tableBody').append(newRow);
 });
 
-document.getElementById("tableBody").addEventListener("click", (event) => {
-  let row = event.target.closest("tr");
-  let rowIndex = $(row).index();
-  let idPerson = json[rowIndex].id;
-  const moreInfo = json.find((elem) => elem.id == idPerson);
+$('#tableBody').click(event => {
+  const row = event.target.closest("tr");
+  const rowIndex = $(row).index();
+  const idPerson = json[rowIndex].id;
+  const moreInfo = json.find(elem => elem.id == idPerson);
 
-  $("#person").text(moreInfo.person.firstname + " " + moreInfo.person.lastname);
+  $("#person").text(`${moreInfo.person.firstname} ${moreInfo.person.lastname}`);
   $("#manufacturer").text(moreInfo.car.manufacturer);
   $("#model").text(moreInfo.car.model);
   $("#year").text(moreInfo.car.year);
