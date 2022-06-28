@@ -144,10 +144,10 @@
 
 @media screen and (max-width: 800px) {
   .main__home {
-    flex-wrap: wrap;
+    flex-direction: column;
   }
   .main__home-alt {
-    flex-wrap: wrap;
+    flex-direction: column;
   }
   .home__wrapper {
     order: 1;
@@ -160,11 +160,12 @@
     width: 100%;
   }
   .main__logo-block {
-    flex-wrap: wrap;
+    flex-direction: column;
     gap: 20px;
+    justify-content: center;
   }
   .main__offers-block {
-    flex-wrap: wrap;
+    flex-direction: column;
     gap: 20px;
     justify-content: center;
   }
