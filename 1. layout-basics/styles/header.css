@@ -1,13 +1,81 @@
-
-header {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 120px;
-    padding: 20px;
-    background-color: #e5ecf1;
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap");
+.header {
+  background-color: #ffffff;
 }
 
-.header__img {
-    height: 50px;
+.header__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  margin-bottom: 100px;
+}
+.logo {
+  margin: none;
+}
+
+.header__menu {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  transition: top 1s;
+  top: 0px;
+  gap: 50px;
+}
+
+.menu__link {
+  font-family: DMSans;
+  font-size: 15px;
+  text-decoration: none;
+  color: #696871;
+  margin-bottom: 10px;
+}
+
+.menu__wrapper-link {
+  position: relative;
+  transition: top 0.5s;
+  top: 0px;
+  padding-bottom: 10px;
+}
+
+.menu__wrapper-link:hover {
+  color: #19191b;
+  border-bottom: 2px solid #5454d4;
+  margin-bottom: -2px;
+}
+
+.header__get-start-button {
+  display: flex;
+  padding: 20px 75px;
+  font-size: 17px;
+  font-family: "DMSans";
+  color: #fff;
+  background: #ff7143;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.header__get-start-button:hover {
+  background: #e66337;
+  transition: all ease 0.5s;
+}
+
+@media screen and (max-width: 800px) {
+  .header__inner {
+    height: 300px;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .logo {
+    order: 1;
+  }
+  .header__menu {
+    order: 2;
+  }
+  .header__get-start-button {
+    order: 3;
+  }
 }
