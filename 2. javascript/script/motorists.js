@@ -2,7 +2,7 @@ import json from "../json/motorists.json" assert { type: "json" };
 
 $("#moreInfo").hide();
 
-json.forEach((elem) => {
+json.forEach(elem => {
   const newRow = document.createElement("tr");
   newRow.innerHTML = `<td> ${elem.person.firstname} ${elem.person.lastname} </td>
      <td> ${elem.car.manufacturer} </td> 
